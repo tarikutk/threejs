@@ -221,7 +221,7 @@
 		"462867a4-52a4-4b27-ba74-3cde815c91b8": [
 			{
 				"name": "earth",
-				"source": "function update( event ) { this.rotation.y += 0.01}"
+				"source": "function update( event ) { this.rotation.y += 0.1}"
 			}],
 		"093db0d0-c452-4ed9-a2a0-0338982c46ad": [
 			{
