@@ -104,7 +104,6 @@ var APP = {
 		this.setCamera = function ( value ) {
 			camera = value;
 			camera.aspect = this.width / this.height;
-			camera.position.set(0,0,3)
 			camera.updateProjectionMatrix();
 
 		};
@@ -180,7 +179,7 @@ var APP = {
 			document.addEventListener( 'pointermove', onPointerMove );
 
 			dispatch( events.start, arguments );
-
+			
       console.log('rendererSceneCamea', { renderer, scene, camera });
 			renderer.setAnimationLoop( animate );
 
