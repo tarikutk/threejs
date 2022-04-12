@@ -111,7 +111,7 @@
 					"type": "Mesh",
 					"name": "Sphere",
 					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,-5,1],
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 					"geometry": "87483c0e-af3b-4664-ad34-8b7d83574adb",
 					"material": "fbe3165b-43fe-4ca2-b9a1-b545bdaef0b8"
 				},

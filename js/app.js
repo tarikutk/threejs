@@ -102,15 +102,14 @@ var APP = {
 		};
 
 		this.setCamera = function ( value ) {
-
 			camera = value;
 			camera.aspect = this.width / this.height;
+			camera.position.set(0,0,3)
 			camera.updateProjectionMatrix();
 
 		};
 
 		this.setScene = function ( value ) {
-
 			scene = value;
 
 		};
@@ -162,7 +161,6 @@ var APP = {
 				console.error( ( e.message || e ), ( e.stack || '' ) );
 
 			}
-
 			renderer.render( scene, camera );
 
 			prevTime = time;
@@ -183,6 +181,7 @@ var APP = {
 
 			dispatch( events.start, arguments );
 
+      console.log('rendererSceneCamea', { renderer, scene, camera });
 			renderer.setAnimationLoop( animate );
 
 		};
